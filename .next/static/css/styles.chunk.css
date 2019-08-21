@@ -46,10 +46,14 @@ header .navigation_list a:hover {
 }
 
 header .navigation_cartLink {
+  position: relative;
   display: flex;
+  margin-top: 4px;
 }
 
 header .navigation_count {
+  position: absolute;
+  left: 30px;
   display: block;
   background-color: rgb(202, 202, 32);
   width: 13px;

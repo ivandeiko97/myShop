@@ -16,23 +16,6 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/catalog/Catalog.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/header/Header.css": [
     {
       "modules": {
@@ -51,6 +34,23 @@
     }
   ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/cart/Cart.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/catalog/Catalog.css": [
     {
       "modules": {
         "byIdentifier": {},
@@ -108,18 +108,10 @@
       "static/runtime/webpack.js": 1,
       "styles": 2,
       "static/runtime/main.js": 3,
-      "static\\9VosnN43sxYBNBRGOcWqf\\pages\\_app.js": 4,
-      "static\\9VosnN43sxYBNBRGOcWqf\\pages\\_error.js": 5,
-      "static\\9VosnN43sxYBNBRGOcWqf\\pages\\cart.js": 6,
-      "static\\9VosnN43sxYBNBRGOcWqf\\pages\\index.js": 7,
-      "static\\WvSWeVIs7b3RmViHjnpoi\\pages\\_app.js": 8,
-      "static\\WvSWeVIs7b3RmViHjnpoi\\pages\\_error.js": 9,
-      "static\\WvSWeVIs7b3RmViHjnpoi\\pages\\cart.js": 10,
-      "static\\WvSWeVIs7b3RmViHjnpoi\\pages\\index.js": 11,
-      "static\\ztk0cBG4-gQUDLCJCkiCh\\pages\\_app.js": 4,
-      "static\\ztk0cBG4-gQUDLCJCkiCh\\pages\\_error.js": 5,
-      "static\\ztk0cBG4-gQUDLCJCkiCh\\pages\\cart.js": 6,
-      "static\\ztk0cBG4-gQUDLCJCkiCh\\pages\\index.js": 7
+      "static\\IPdWLujY_vWjkqDKiCyGI\\pages\\_app.js": 4,
+      "static\\IPdWLujY_vWjkqDKiCyGI\\pages\\_error.js": 5,
+      "static\\IPdWLujY_vWjkqDKiCyGI\\pages\\cart.js": 6,
+      "static\\IPdWLujY_vWjkqDKiCyGI\\pages\\index.js": 7
     },
     "bySource": {},
     "usedIds": [

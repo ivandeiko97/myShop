@@ -4,12 +4,6 @@ import Header from '../components/header/Header';
 import CartList from '../components/cart/Cart';
 
 class Cart extends React.Component {
-  static getInitialProps ({ reduxStore, req }) {
-    const isServer = !!req
-    // DISPATCH ACTIONS HERE ONLY WITH `reduxStore.dispatch`
-
-    return {}
-  }
   render () {
     return  (
     <Fragment>

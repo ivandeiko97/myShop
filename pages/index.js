@@ -6,12 +6,6 @@ import Catalog from '../components/catalog/Catalog';
 import './style.css'
 
 class Index extends React.Component {
-  static getInitialProps ({ reduxStore, req }) {
-    const isServer = !!req
-    // DISPATCH ACTIONS HERE ONLY WITH `reduxStore.dispatch`
-    return {}
-  }
-
   render () {
     return (
     <Fragment>

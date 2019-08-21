@@ -176,8 +176,7 @@ function mapStateToProps(state) {
 }
 
 ;
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, null)(Header)); // as={ process.env.BACKEND_URL + '/cart'}
-// as={ process.env.BACKEND_URL + '/'}
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, null)(Header));
 
 /***/ }),
 
@@ -13140,37 +13139,28 @@ function (_React$Component) {
       return __jsx(react__WEBPACK_IMPORTED_MODULE_5__["Fragment"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 11
         },
         __self: this
       }, __jsx(_components_header_Header__WEBPACK_IMPORTED_MODULE_7__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 12
         },
         __self: this
       }), __jsx("main", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 13
         },
         __self: this
       }, __jsx(_components_catalog_Catalog__WEBPACK_IMPORTED_MODULE_9__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 14
         },
         __self: this
       })));
-    }
-  }], [{
-    key: "getInitialProps",
-    value: function getInitialProps(_ref) {
-      var reduxStore = _ref.reduxStore,
-          req = _ref.req;
-      var isServer = !!req; // DISPATCH ACTIONS HERE ONLY WITH `reduxStore.dispatch`
-
-      return {};
     }
   }]);
 

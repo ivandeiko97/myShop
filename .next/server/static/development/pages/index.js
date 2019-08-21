@@ -293,8 +293,7 @@ function mapStateToProps(state) {
 }
 
 ;
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, null)(Header)); // as={ process.env.BACKEND_URL + '/cart'}
-// as={ process.env.BACKEND_URL + '/'}
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, null)(Header));
 
 /***/ }),
 
@@ -1207,38 +1206,29 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  static getInitialProps({
-    reduxStore,
-    req
-  }) {
-    const isServer = !!req; // DISPATCH ACTIONS HERE ONLY WITH `reduxStore.dispatch`
-
-    return {};
-  }
-
   render() {
     return __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 11
       },
       __self: this
     }, __jsx(_components_header_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 12
       },
       __self: this
     }), __jsx("main", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 13
       },
       __self: this
     }, __jsx(_components_catalog_Catalog__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 14
       },
       __self: this
     })));
