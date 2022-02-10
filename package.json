@@ -11,7 +11,7 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "next": "latest",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux": "^5.0.1",
